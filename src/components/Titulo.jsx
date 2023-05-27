@@ -5,7 +5,7 @@ const [Msj, setMsj] = useState('')
 
         <>
             <h1>Hello {props.tituloNuevo}{Msj}!</h1>
-            <button>click me c:</button>
+            <button  onClick={()=> setMsj(' (from changed state)')}>click me c:</button>
         </>
     );
 };
